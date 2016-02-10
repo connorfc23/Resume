@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\namesection{Connor}{Mason}{ % Your name
+\urlstyle{same}\url{http://connor-mason.com} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:connorfc23@gmail.com}{connorfc23@gmail.com} | (414)687-7208 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Marquette University}
+\descript{BS in Computer Science, German}
+\location{May 2016 | Milwaukee, WI}
+\location{Cum. GPA: 3.18}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/connorfc23}{\bf connorfc23} \\
+LinkedIn:// \href{https://www.linkedin.com/in/connordmason}{\bf connordmason} \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Courses}
+
+Security \\
+Networks \& Internets \\
+Operating Systems \\
+Programming Languages \\
+Hardware Systems \\
+Data Mining \\
+Hardware Systems \\
+Principles of Design \\
+Senior Design Project \\
+Programming Computer Games \\
+Data Structures I \\
+Data Structures II \\
+Object-Oriented Software Design \\
+Intro to Computer Programming \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Confident:}
+Java \textbullet{} C \\
+\location{Comfortable:}
+Bash \textbullet{} HTML \textbullet{} CSS \textbullet{} Embedded Xinu \\
+\location{Familiar:}
+SQL \textbullet{} Python \textbullet{} Scheme \textbullet{} LaTeX \\
+Javascript \textbullet{} Assembly
+\sectionspace % Some whitespace after the section
+\subsection{Other}
+System Center 2012 R2 \textbullet{} RSAT \\
+Tripwire \textbullet{} Wireshark \textbullet{} Nmap \\
+AlienVault \textbullet{} Metasploit \textbullet{} Nexpose
+\sectionspace % Some whitespace after the section
+
+\section{Societies}
+Upsilon Pi Epsilon \\
+Association for Computing Machinery \\
+Delta Phi Alpha
+\section{Awards}
+Dr. Esther L. Hudgins Scholarship \\
+Global Village Ambassador of the Year
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Marquette University}
+\descript{| Student Security Analyst}
+
+\location{September 2015 - Present | Milwaukee, WI}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Scan for and exploit vulnerabilities with Rapid7’s Nexpose and Metasploit
+\item Write Bash shell scripts to automate workflow
+\item Organize phishing campaigns to teach faculty and staff about the dangers of social engineering attacks
+\item Audit changes made on servers with Tripwire
+\item Monitor and assess network threats with AlienVault USM
+\item Enforce Marquette’s Acceptable Use Policy for copyright infringement using firewall and DHCP logs
+\item Repair computers infected with malware
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Marquette University}
+\descript{| Student Tech Support Specialist}
+\location{September 2013 – September 2015 | Milwaukee, WI}
+\begin{tightitemize}
+\item Managed queues of multiple incidents, service requests, and computer deployments simultaneously
+\item Personally imaged and deployed several hundred Macs and Windows PCs
+\item Served as a subject-matter expert in daily operations for other student specialists
+\end{tightitemize}
+
+\section{Projects}
+
+\runsubsection{Personal Website}
+\descript{| \urlstyle{same}\url{http://connor-mason.com}}
+\location{Learned how to configure and secure a web server}
+\location{Tools \& Concepts Used:}
+Raspberry Pi \textbullet{} SSH \textbullet{} HTTP \textbullet{} Apache 2.2 \textbullet{} iptables \textbullet{}  fail2ban \textbullet{} robots.txt \\
+.htaccess \textbullet{} Port Forwarding \textbullet{} HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} Google Domains \\
+Google Analytics
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Sports Performance Data Mining}
+\descript{| Security}
+\location{Senior Design | Fall 2015 - Spring 2016}
+Leading the security side of implementing a dashboard for Marquette University Athletics coaches and athletes to interact with data recorded by Catapult sensors. I am ensuring that both the server and clients are accessing and mutating the data in accordance with HIPAA, and that the user login system is secure and allows for access dependent on the user's role.
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{OSI Model Protocols}\\
+\location{Security | Fall 2015}
+Constructed an Embedded Xinu kernel with protocols such as ARP, UDP, ICMP, and IPv4 using C
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Under Attack}\\
+\location{Security | Fall 2015}
+Configured two Linux machines with an iptables firewall and a client and server written in C to attack other teams using DoS and DDoS
+
+\sectionspace % Some whitespace after the section
+
+\runsubsection{IT Bird}\\
+\location{Programming Computer Games | Spring 2015}
+Designed an object-oriented Flappy Bird-style game with threads and finite state machines in Java. Personally designed artwork to the theme of an IT employee.
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
